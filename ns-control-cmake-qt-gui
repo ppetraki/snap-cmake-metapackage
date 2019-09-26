@@ -1,0 +1,7 @@
+Package: snap-cmake-qt-gui
+Provides: cmake-gui (=3.15.3)
+Version: 3.15.3
+Replaces: cmake-gui (<=3.15.3)
+Architecture: any
+Depends: cmake (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
+Description: virtual package to represent cmake-qt-gui inside snap package

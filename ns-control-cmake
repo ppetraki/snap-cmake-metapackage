@@ -1,0 +1,15 @@
+Source: snap-cmake
+Section: devel
+Priority: optional
+Standards-Version: 3.9.2
+
+Package: snap-cmake
+Provides: cmake (=3.15.3)
+Depends: cmake-data (= ${source:Version})
+Version: 3.15.3
+Replaces: cmake (<=3.15.3)
+Recommends: gcc, make
+Suggests: cmake-doc, ninja-build
+Architecture: any
+Multi-Arch: foreign
+Description: virtual package to represent cmake snap package

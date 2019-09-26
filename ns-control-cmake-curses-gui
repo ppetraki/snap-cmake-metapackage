@@ -1,0 +1,8 @@
+Package: snap-cmake-curses-gui
+Provides: cmake-curses-gui (=3.15.3)
+Version: 3.15.3
+Replaces: cmake-curses-gui (<=3.15.3)
+Architecture: any
+Depends: cmake (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
+Multi-Arch: foreign
+Description: virtual package to represent cmake-curses-gui inside snap package

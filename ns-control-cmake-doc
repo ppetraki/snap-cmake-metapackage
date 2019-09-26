@@ -1,0 +1,8 @@
+Package: snap-cmake-doc
+Provides: cmake-doc (=3.15.3)
+Version: 3.15.3
+Replaces: cmake-doc (<=3.15.3)
+Architecture: all
+Section: doc
+Depends: ${misc:Depends}, cmake-data (= ${source:Version})
+Description: virtual package to represent cmake-doc inside snap package

@@ -1,4 +1,4 @@
-# cmake-snap-metapackage
+# snap-cmake-metapackage
 
 A virtual package that will export the necessary metadata for cmake installed via a snap so that other deb packages
 do not complain
